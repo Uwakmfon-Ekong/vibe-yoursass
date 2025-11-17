@@ -20,13 +20,13 @@ const Navbar = () => {
 
   return (
     <nav
-      className="container mx-auto font-poppins w-full px-6 md:px-12 flex flex-wrap md:flex-nowrap justify-between items-center bg-white dark:bg-gray-900 relative z-50"
+      className="container mx-auto font-poppins w-full px-6 md:px-12 flex flex-wrap md:flex-nowrap justify-between items-center bg-whitdark:bg-gray-900 z-50 sticky top-0 bg-transparent backdrop-blur-md"
      
     >
       
      <Link href="/">
       <div className="flex items-center space-x-2">
-        <Image src={logo} alt="Logo" className="w-40 h-40" />
+        <Image src={logo} alt="Logo" className="lg:w-40 lg:h-40 w-30 h-30" />
       </div>
       </Link>
 
