@@ -58,7 +58,7 @@ const Navbar = () => {
       {/* Desktop Button */}
       <div className="hidden md:flex">
         <Button className="relative overflow-hidden bg-[#8A2BE2] text-[18px] shadow-md shadow-[#8A2BE299] hover:bg-[#8A2BE299]/95 font-medium">
-          <span className="relative z-10">Schedule Meeting</span>
+          <span className="relative z-10">Schedule a Meeting</span>
           <span className="absolute inset-0 bg-linear-to-r from-[#8A2BE2] via-[#B57CFF] to-[#8A2BE2] animate-shimmer"></span>
         </Button>
       </div>
