@@ -39,7 +39,7 @@ const HowWeHelp= () => {
   ];
 
   return (
-    <section className="w-full py-20 bg-white dark:bg-gray-950 font-poppins overflow-x-hidden">
+    <section className="w-full py-20 bg-white dark:bg-gray-950 font-poppins overflow-x-hidden" id="services">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex lg:w-[40%] mx-auto"  data-aos="fade-up">
             <div className="w-24 h-3 bg-linear-to-r from-white to-primary mx-auto mt-3 rounded-full"></div>

@@ -56,7 +56,7 @@ export default function AboutSection() {
   ];
 
   return (
-    <section className="w-full bg-white py-16 px-8 font-poppins">
+    <section className="w-full bg-white py-16 px-8 font-poppins" id="about">
       <div className="max-w-5xl mx-auto">
         {/* Title */}
         <div
